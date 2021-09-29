@@ -1,0 +1,1 @@
+insmod cmd_mod.ko str=tired
