@@ -1,0 +1,5 @@
+I identified the the offset of the oops from loading the module.
+the offset is 0xd.
+In order to know the exact line which caused the oops I ran the command:
+addr2line -e oops_mod.o 0xd
+The command's output is line 15 in file oops_mod.c, the line that caused the oops.
